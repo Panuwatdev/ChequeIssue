@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" DotMatrixReport="False" EngineOptions.MaxMemSize="10000000" IniFile="\Software\Fast Reports" Preview="frxPreview1" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="40225.5348475463" ReportOptions.Description.Text="" ReportOptions.LastChange="40225.733728831" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674037A0103546F7002610844617461736574730E010744617461536574071D66726D4D61696E4D656E75506167652E667278444244617461736574310B446174615365744E616D65060E66727844424461746173657431310000095661726961626C65730E00055374796C650E00">
+  <TfrxReportPage Name="Page1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" HGuides.Text="" VGuides.Text="11.33859">
+    <TfrxReportTitle Name="ReportTitle1" Height="34.01577" Left="0" Top="18.89765" Width="1046.92981">
+      <TfrxMemoView Name="Memo2" Left="12" Top="0" Width="35.04" Height="26.45671" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="HD" ParentFont="False"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="22.67718" Left="0" Top="177.63791" Width="1046.92981" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" RowCount="0"/>
+    <TfrxPageFooter Name="PageFooter1" Height="26.45671" Left="0" Top="600.94527" Width="1046.92981">
+      <TfrxMemoView Name="Memo1" Left="782.26192253" Top="0" Width="245.66945" Height="18.89765" HAlign="haRight" Memo.Text="Page [Page#] of  [TotalPages#]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="42.35436" Left="0" Top="75.5906" Width="1046.92981">
+      <TfrxMemoView Name="Memo3" Left="9.55906" Top="7" Width="196.53556" Height="26.45671" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="ReportName " ParentFont="False"/>
+      <TfrxMemoView Name="Memo4" Left="722.73253" Top="0" Width="313.70099" Height="18.45671" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="dd-mm-yyyy" DisplayFormat.Kind="fkDateTime" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="Report Date : [Date] " ParentFont="False"/>
+      <TfrxMemoView Name="Memo5" Left="720.73253" Top="20.23624" Width="313.70099" Height="20.45671" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="Transaction Date : RunnigDate" ParentFont="False"/>
+      <TfrxLineView Name="Line1" Left="11.33859" Top="38.7953" Width="1026.89827" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line2" Left="10.00804" Top="0.559060000000002" Width="1030.24459" Height="0" Frame.Typ="4"/>
+    </TfrxPageHeader>
+    <TfrxFooter Name="Footer1" Height="22.67718" Left="0" Top="362.83488" Width="1046.92981"/>
+    <TfrxGroupHeader Name="GroupHeader1" Height="26.45671" Left="0" Top="222.99227" Width="1046.92981" Condition="frxDBDataset11.&#34;TRN_OfficeWork&#34;">
+      <TfrxMemoView Name="Memo6" Left="18.89765" Top="3" Width="177.63791" Height="18.89765" DataField="TRN_OfficeWork" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="[frxDBDataset11.&#34;TRN_OfficeWork&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo7" Left="75.5906" Top="3" Width="309.92146" Height="18.89765" DataField="BankName" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="[frxDBDataset11.&#34;BankName&#34;]" ParentFont="False"/>
+      <TfrxLineView Name="Line5" Left="11.55906" Top="23.67718" Width="1031.8825" Height="0" Frame.Typ="4"/>
+    </TfrxGroupHeader>
+    <TfrxDetailData Name="DetailData1" Height="22.67718" Left="0" Top="317.48052" Width="1046.92981" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" RowCount="0">
+      <TfrxMemoView Name="Memo10" Left="18.89765" Top="1" Width="113.3859" Height="18.89765" DataField="TRN_JobID" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Memo.Text="[frxDBDataset11.&#34;TRN_JobID&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo11" Left="134.62214" Top="1" Width="272.12616" Height="18.89765" DataField="TRN_JobDescr" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Memo.Text="[frxDBDataset11.&#34;TRN_JobDescr&#34;]" ParentFont="False" WordWrap="False"/>
+      <TfrxMemoView Name="Memo12" Left="388.18924" Top="1" Width="167.68522" Height="18.89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Memo.Text="[frxDBDataset11.&#34;TRN_StartSerailData&#34;] -" ParentFont="False"/>
+      <TfrxMemoView Name="Memo13" Left="461.77984" Top="1" Width="170.07885" Height="18.89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Memo.Text="[frxDBDataset11.&#34;TRN_ChequeCurrent&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo14" Left="538.50433" Top="0" Width="86.85838" Height="18.89765" DataField="TRN_OfficeData" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Memo.Text="[frxDBDataset11.&#34;TRN_OfficeData&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo15" Left="573.85869" Top="0.779530000000023" Width="105.82684" Height="18.89765" DataField="TRN_BranchData" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="0" Memo.Text="[frxDBDataset11.&#34;TRN_BranchData&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo17" Left="653.85869" Top="1.22046999999998" Width="147.40167" Height="18.89765" DataField="TRN_AmtData" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Memo.Text="[frxDBDataset11.&#34;TRN_AmtData&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="652.63822" Top="1.22046999999998" Width="52.91342" Height="18.89765" DataField="TRN_TCData" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Memo.Text="[frxDBDataset11.&#34;TRN_TCData&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="768.56741" Top="0.779530000000023" Width="75.5906" Height="18.89765" DataField="TRN_Amount" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Memo.Text="[frxDBDataset11.&#34;TRN_Amount&#34;]"/>
+      <TfrxMemoView Name="Memo18" Left="960.00062" Top="1" Width="200.31509" Height="18.89765" DataField="TRN_Status" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Memo.Text="[frxDBDataset11.&#34;TRN_Status&#34;]"/>
+      <TfrxMemoView Name="Memo26" Left="861.18955" Top="0.559059999999988" Width="63.37013" Height="18.89765" DataField="TRN_BookQty" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Memo.Text="[frxDBDataset11.&#34;TRN_BookQty&#34;]"/>
+    </TfrxDetailData>
+    <TfrxGroupHeader Name="GroupHeader2" Height="22.67718" Left="0" Top="272.12616" Width="1046.92981" Condition="frxDBDataset11.&#34;TRN_BranchWork&#34;">
+      <TfrxMemoView Name="Memo8" Left="20.89765" Top="0.779530000000023" Width="86.92919" Height="18.89765" DataField="TRN_BranchWork" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="[frxDBDataset11.&#34;TRN_BranchWork&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo9" Left="71.81107" Top="1" Width="438.42548" Height="18.89765" DataField="BRNName" DataSet="frxDBDataset1" DataSetName="frxDBDataset11" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="[frxDBDataset11.&#34;BRNName&#34;]" ParentFont="False"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="26.45671" Left="0" Top="408.18924" Width="1046.92981">
+      <TfrxMemoView Name="Memo20" Left="882.0872" Top="0" Width="147.40167" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Microsoft Sans Serif" Font.Style="1" HAlign="haRight" Memo.Text="[SUM(&#60;frxDBDataset11.&#34;TRN_Amount&#34;&#62;,DetailData1)]   " ParentFont="False"/>
+      <TfrxMemoView Name="Memo21" Left="211.81911" Top="1" Width="586.89796" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="Total Amount of  [frxDBDataset11.&#34;BRNName&#34;]" ParentFont="False"/>
+      <TfrxLineView Name="Line3" Left="204.09462" Top="0" Width="842.83519" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line4" Left="205.31509" Top="23.89765" Width="842.61472" Height="0" Frame.Typ="4"/>
+    </TfrxGroupFooter>
+    <TfrxGroupFooter Name="GroupFooter2" Height="27.67718" Left="0" Top="457.32313" Width="1046.92981">
+      <TfrxMemoView Name="Memo22" Left="211.81911" Top="1.22046999999998" Width="586.89796" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="Total Amount of  [frxDBDataset11.&#34;BankName&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo23" Left="882.74861" Top="1" Width="147.40167" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Microsoft Sans Serif" Font.Style="1" HAlign="haRight" Memo.Text="[SUM(&#60;frxDBDataset11.&#34;TRN_Amount&#34;&#62;,DetailData1)]   " ParentFont="False"/>
+      <TfrxLineView Name="Line8" Left="11.33859" Top="26.45671" Width="1034.81169" Height="0" Frame.Typ="4"/>
+    </TfrxGroupFooter>
+    <TfrxColumnFooter Name="ColumnFooter1" Height="34.01577" Left="0" Top="544.25232" Width="1046.92981">
+      <TfrxMemoView Name="Memo24" Left="209.87415" Top="4" Width="586.89796" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Microsoft Sans Serif" Font.Style="1" Memo.Text="Total Amount " ParentFont="False"/>
+      <TfrxMemoView Name="Memo25" Left="884.80365" Top="4.77953000000002" Width="147.40167" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Microsoft Sans Serif" Font.Style="1" HAlign="haRight" Memo.Text="[SUM(&#60;frxDBDataset11.&#34;TRN_Amount&#34;&#62;,DetailData1,2)]   " ParentFont="False"/>
+      <TfrxLineView Name="Line6" Left="13.33859" Top="32.23624" Width="1046.00062" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line7" Left="12.33859" Top="1" Width="1033.81169" Height="0" Frame.Typ="4"/>
+    </TfrxColumnFooter>
+  </TfrxReportPage>
+</TfrxReport>

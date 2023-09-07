@@ -1,0 +1,10 @@
+Job Summary Report: 
+
+Select (Select HOF_InternationsDescr from DBOfficeMaster where HOF_ID = TRN_OfficeID) as BankName, 
+       (Select BOF_LocalDescr from DBBranchesMaster where BOF_ID = TRN_BranchID )as BRNName, 
+        * from  DBTransaction 
+
+-----------------------------------
+
+Cheque Format Sumery Report:
+
